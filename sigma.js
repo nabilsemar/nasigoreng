@@ -13,12 +13,19 @@ tiktok.addEventListener('click', function() {
 
 const openplaylist = document.getElementById('playlist-galau');
 openplaylist.addEventListener('click', function() {
-    window.location.href = 'https://open.spotify.com/playlist/0cFVj6cmmmLWCHq668gOIp?si=9bf3dcc98b3e489e';
+    //window.location.href = 'https://open.spotify.com/playlist/0cFVj6cmmmLWCHq668gOIp?si=9bf3dcc98b3e489e';
+    List();
 });
 
 function jir() {
     setTimeout(function() {
         alert('Jir dari kata anjir. Bisa digunakan macam-macam kondisi. Bisa digunakan saat terkejut, terkagum-kagum, kesal, dan sebagainya. Mirip dengan "damn" bahasa Inggris.');
+    });
+}
+
+function List() {
+    setTimeout(function() {
+        alert('Playlistnya hilang😭');
     });
 }
 
