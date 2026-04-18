@@ -34,16 +34,19 @@ const background = document.querySelector('.rickroll');
 var audio = document.getElementById("rickroll");
 background.style.display = 'none'; 
 background.style.zIndex = -3;
-rickroll.addEventListener('click', () => {
-    if (background.style.zIndex === '-3'){
-        background.style.display = 'block'; 
-        background.style.zIndex = 2;
-        audio.play();
-    }else{
-        background.style.zIndex = -3;
-
-    }
+rickroll.addEventListener('click', function() {
+    window.location.href = "https://www.bango.co.id/r/resep-nasi-goreng-spesial.html/242794";
 });
+//rickroll.addEventListener('click', () => {
+//    if (background.style.zIndex === '-3'){
+//        background.style.display = 'block'; 
+//        background.style.zIndex = 2;
+//        audio.play();
+//    }else{
+//        background.style.zIndex = -3;
+
+//    }
+//});
 
 const ipul = document.getElementById('ipul');
 instagram.style.display = 'none'; 
