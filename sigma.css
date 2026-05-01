@@ -214,6 +214,7 @@ button:active {
     cursor: default;
     width: 550px;
     height: 140px;
+    border: none;
 }
 .playlist{
     background-image: url('./image/playlist_galau.png');
